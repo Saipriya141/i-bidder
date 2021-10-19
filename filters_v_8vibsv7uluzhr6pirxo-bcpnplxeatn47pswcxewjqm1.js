@@ -1,0 +1,1 @@
+(function(n){n.module("image.filter",[]).filter("image",function(){return function(n,t){if(typeof n!="undefined")return n.extension?n.url+t+n.extension:n.url}})})(angular)
